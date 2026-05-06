@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #dee5ee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background: #012494;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+}
+
+button{
+    padding: 12px 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover{
+    background: #187bcd;
+}
+
+/*ESTILO de toast*/
+
+.toast{
+    position: fixed;
+    bottom: 60%;
+    left: 30%;
+    background-color: #9FFC9F;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-bottom: 4px solid green;
+}
+
+.show{
+    opacity: 1;
+}
+
+/* .hidden{
+    display: none;
+}
+ */
+
