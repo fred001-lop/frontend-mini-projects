@@ -47,16 +47,18 @@ button:hover{
     left: 30%;
     background-color: #9FFC9F;
     padding: 12px 20px;
+    border: 1px solid rgb(9, 126, 9);
     border-radius: 5px;
     border-bottom: 4px solid green;
+    opacity: 0;
 }
 
 .show{
     opacity: 1;
 }
 
-/* .hidden{
+
+.hidden{
     display: none;
 }
- */
 

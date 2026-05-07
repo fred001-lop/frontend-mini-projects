@@ -1,0 +1,84 @@
+/* reset de pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: #b5cbe0;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.banner button{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+
+.hero{
+    background: linear-gradient(135deg, #4382ce, #0a033b);
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+}
+
+
+/* MAIN CONTENT*/
+
+.content{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+
+}
+
+
+.content h2{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content p, .content ul{
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.content ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+
+
+footer{
+    color: #777;
+    text-align: center;
+    background: #faf2f2;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
