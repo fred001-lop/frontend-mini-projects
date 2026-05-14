@@ -72,3 +72,21 @@ h1{
     color: #fff;
 }
 
+
+main{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #9bb78d;
+}
+
+p{
+    margin: 12px 0;
+    columns: #444;
+}
