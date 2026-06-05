@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Save the Forests</title>
   </head>
   <body>
@@ -11,8 +12,8 @@
       <p>Even planting one or two trees makes a difference.</p>
     </header>
     <div class="dropdown">
-      <button class="dropbtn">Learn More ▼</button>
-      <div id="myDropdown" class="dropdowmn-comtemt">
+      <button class="dropbtn" onclick="toggleDropdown()">Learn More ▼</button>
+      <div id="myDropdown" class="dropdown-content">
         <a href="#">Why forests matter</a>
         <a href="#">How to grow a tree</a>
         <a href="#">Community projects</a>
@@ -38,5 +39,8 @@
     <footer>
         <p>Together we can make the plane greener.</p>
     </footer>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
